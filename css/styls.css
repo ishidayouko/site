@@ -1,0 +1,63 @@
+@charset "utf=8";
+
+header{
+  background-color: lightskyblue;
+  display: flex;
+  text-align: center;
+}
+
+.info {
+  margin: auto;
+}
+
+.icon {  
+  margin: auto;
+}
+
+.icon img {
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: white
+}
+
+.all {
+  text-align: center;
+}
+
+
+
+.work > h1 , .skill > h1 , .pr > h1 {
+  font-size: 40px;
+}
+
+table {
+  margin: auto;
+}
+
+body {
+  background-color: rgb(197, 229, 235);
+  margin: 0;
+}
+
+.htmlcss img {
+  padding-top: 20px;
+}
+
+
+@media (min-width: 900px){
+  .container {
+    display: flex;
+    margin: auto;
+    width: 800px;
+  }
+
+  .info {
+    width: 60%;
+  }
+
+  .icon {
+    width: 40%;
+  }
+}
+
