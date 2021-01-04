@@ -25,11 +25,26 @@ header{
   text-align: center;
 }
 
+.skill , .work , .pr {
+  padding-top: 48px;
+}
+
 
 
 .work > h1 , .skill > h1 , .pr > h1 {
   font-size: 40px;
+  text-decoration: underline;
+  margin: auto;
 }
+
+.skill > h1 , .pr > h1 { 
+  padding-bottom: 30px;
+}
+
+.work > h1 {
+  padding-bottom: 64px;
+}
+
 
 table {
   margin: auto;
@@ -54,6 +69,7 @@ body {
 
   .info {
     width: 60%;
+    line-height: 2;
   }
 
   .icon {
@@ -69,6 +85,62 @@ header img {
 .photoshop .htmlcss img {
   height: 100px;
 }
+
+
+
+.pr p {
+  display: inline-block;
+  text-align: left;
+  background-color: lightskyblue;
+  line-height: 2;
+}
+
+.work {
+  position: relative;
+}
+
+.learn > h1 {
+  font-size: 25px;
+  position:absolute;
+  top: 10%;
+  left: 15%;
+} 
+
+.learn > p {
+  position:absolute;
+  top: 16%;
+  left: 15%;
+}
+
+.original > h1 {
+  font-size: 25px;
+  position:absolute;
+  top: 52%;
+  left: 15%;
+}
+
+.original > p {
+  position:absolute;
+  top: 58%;
+  left: 15%;
+}
+
+.original > img {
+  margin-top: 115px;
+}
+
+.learn img {
+  margin-top: 32px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
