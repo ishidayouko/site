@@ -6,6 +6,10 @@ header{
   text-align: center;
 }
 
+.container {
+  width: 50%;
+}
+
 .info {
   margin: auto;
 }
@@ -29,8 +33,6 @@ header{
   padding-top: 48px;
 }
 
-
-
 .work > h1 , .skill > h1 , .pr > h1 {
   font-size: 40px;
   text-decoration: underline;
@@ -45,9 +47,9 @@ header{
   padding-bottom: 64px;
 }
 
-
 table {
   margin: auto;
+  width: 640px;
 }
 
 body {
@@ -58,7 +60,6 @@ body {
 .htmlcss img {
   padding-top: 20px;
 }
-
 
 /* @media (min-width: 900px){
   .container {
@@ -75,8 +76,7 @@ body {
   .icon {
     width: 40%;
   }
-}
-
+/* } */
 
 header img {
   height: 230px;
@@ -86,8 +86,6 @@ header img {
   height: 100px;
 }
 
-
-
 .pr p {
   display: inline-block;
   text-align: left;
@@ -95,45 +93,85 @@ header img {
   line-height: 2;
 }
 
-.work {
+/* .work {
   position: relative;
+} */
+
+.learn, .original {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .learn > h1 {
   font-size: 25px;
-  position:absolute;
+  text-align: left;
+  /* position:absolute;
   top: 72px;
-  left: 200px;
+  left: 200px; */
 } 
 
 .learn > p {
-  position:absolute;
+  text-align: left;
+  /* position:absolute;
   top: 16%;
-  left: 15%;
+  left: 15%; */
 }
 
 .original > h1 {
   font-size: 25px;
-  position:absolute;
+  text-align: left;
+  /* position:absolute;
   top: 480px;
-  left: 200px;
+  left: 200px; */
 }
 
 .original > p {
-  position:absolute;
+  text-align: left;
+  /* position:absolute;
   top: 58%;
-  left: 15%;
+  left: 15%; */
 }
 
 .original > img {
-  margin-top: 115px;
+  /* margin-top: 115px; */
 }
 
 .learn img {
-  margin-top: 32px;
+  /* margin-top: 32px; */
+  width: 480px;
+  height: 280px;
 }
 
-/* @media screen and (max-width: 769px) { */
+@media screen and (max-width: 767px) {
+  header {
+    display: block;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .info h1 {
+    margin-top: 0;
+  }
+
+  .icon {
+    width: auto;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .learn img {
+    width: 100%;
+    height: auto;
+  }
+
+  .learn > h1, .learn > p, .original > h1, .original > p {
+    text-align: center;
+  }
+}
 
 
 
