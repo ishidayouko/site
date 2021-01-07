@@ -33,18 +33,19 @@ header{
   padding-top: 48px;
 }
 
-.work > h1 , .skill > h1 , .pr > h1 {
+.work > h2 , .skill > h2 , .pr > h2 {
   font-size: 40px;
   text-decoration: underline;
   margin: auto;
 }
 
-.skill > h1 , .pr > h1 { 
+.skill > h2 , .pr > h2 { 
   padding-bottom: 30px;
 }
 
-.work > h1 {
-  padding-bottom: 64px;
+.work > h2 {
+  padding-top: 32px;
+  padding-bottom: 12px;
 }
 
 table {
@@ -102,7 +103,7 @@ header img {
   margin: 0 auto;
 }
 
-.learn > h1 {
+.learn > h3 {
   font-size: 25px;
   text-align: left;
   /* position:absolute;
@@ -117,7 +118,7 @@ header img {
   left: 15%; */
 }
 
-.original > h1 {
+.original > h3 {
   font-size: 25px;
   text-align: left;
   /* position:absolute;
@@ -168,7 +169,7 @@ header img {
     height: auto;
   }
 
-  .learn > h1, .learn > p, .original > h1, .original > p {
+  .learn > h3, .learn > p, .original > h3, .original > p {
     text-align: center;
   }
 }
